@@ -58,5 +58,3 @@ Zipper uses a streamlined pipeline to ensure your CPU spends more time compressi
 ## 📝 License
 
 Distributed under the MIT License. Use it to shrink your data, fast.
-
-Would you like me to help you add **Command Line Arguments (argparse)** support so you can bypass the interactive prompts in automated scripts?
