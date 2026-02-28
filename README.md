@@ -2,6 +2,8 @@
 
 Un'utility Python ad alte prestazioni progettata per comprimere grandi dataset su larga scala. Sfruttando **ISA-L (Intel Intelligent Storage Acceleration Library)** tramite l'integrazione `isal`, Zipper raggiunge velocità di compressione significativamente superiori rispetto alla libreria standard, mantenendo piena compatibilità con il formato ZIP.
 
+![Screenshot](/assets/screenshot.png?raw=true "Screenshot")
+
 ---
 
 ## ✨ Funzionalità
@@ -73,8 +75,6 @@ zipper
 1. **Inserisci il percorso** della directory che desideri comprimere.
 2. **Conferma il nome del file di output** (il valore predefinito è il nome della tua cartella).
 3. **Guarda come vola.**
-
-![Screenshot](/assets/screenshot.png?raw=true "Screenshot")
 
 ---
 
