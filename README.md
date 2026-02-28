@@ -74,6 +74,8 @@ zipper
 2. **Conferma il nome del file di output** (il valore predefinito è il nome della tua cartella).
 3. **Guarda come vola.**
 
+![Screenshot](/assets/screenshot.png?raw=true "Screenshot")
+
 ---
 
 ## 📊 Flusso di Lavoro delle Prestazioni
