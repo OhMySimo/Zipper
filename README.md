@@ -1,60 +1,54 @@
 # ⚡ Zipper
-
-A high-performance Python utility designed to compress large datasets at scale. By leveraging **ISA-L (Intel Intelligent Storage Acceleration Library)** via the `isal` integration, Zipper achieves significantly faster compression speeds than the standard library while maintaining full ZIP compatibility.
-
----
-
-## ✨ Features
-
-* **ISAL Accelerated:** Uses hardware-optimized compression for maximum throughput.
-* **Rich Interface:** Beautifully rendered progress bars, tables, and real-time statistics powered by `rich`.
-* **Dataset Optimized:** Built specifically to handle large directories and massive file counts efficiently.
-* **Interactive Setup:** Simple CLI prompts for source and destination—no complex flags required.
-* **Detailed Analytics:** Post-compression summary including average MB/s and total elapsed time.
+Un'utility Python ad alte prestazioni progettata per comprimere grandi dataset su larga scala. Sfruttando **ISA-L (Intel Intelligent Storage Acceleration Library)** tramite l'integrazione `isal`, Zipper raggiunge velocità di compressione significativamente superiori rispetto alla libreria standard, mantenendo piena compatibilità con il formato ZIP.
 
 ---
 
-## 🚀 Getting Started
+## ✨ Funzionalità
 
-### Prerequisites
+* **Accelerazione ISAL:** Utilizza la compressione ottimizzata via hardware per la massima velocità di elaborazione.
+* **Interfaccia Ricca:** Barre di avanzamento, tabelle e statistiche in tempo reale rese con eleganza grazie a `rich`.
+* **Ottimizzato per i Dataset:** Progettato specificamente per gestire in modo efficiente directory di grandi dimensioni e un numero elevato di file.
+* **Configurazione Interattiva:** Semplici prompt da riga di comando per sorgente e destinazione — nessun flag complesso richiesto.
+* **Analisi Dettagliata:** Riepilogo post-compressione con MB/s medi e tempo totale trascorso.
 
-Ensure you have the acceleration library and UI toolkit installed:
+---
+
+## 🚀 Per Iniziare
+
+### Prerequisiti
+Assicurati di avere installato la libreria di accelerazione e il toolkit per l'interfaccia:
 
 ```bash
 pip install isal rich
-
 ```
 
-### Usage
-
-Simply run the script and follow the interactive prompts:
+### Utilizzo
+Esegui semplicemente lo script e segui i prompt interattivi:
 
 ```bash
 python zipper.py
-
 ```
 
-1. **Enter the path** of the directory you wish to compress.
-2. **Confirm the output name** (it defaults to your folder name).
-3. **Watch it fly.**
+1. **Inserisci il percorso** della directory che desideri comprimere.
+2. **Conferma il nome del file di output** (il valore predefinito è il nome della tua cartella).
+3. **Guarda come vola.**
 
 ---
 
-## 📊 Performance Workflow
+## 📊 Flusso di Lavoro delle Prestazioni
 
-Zipper uses a streamlined pipeline to ensure your CPU spends more time compressing and less time waiting on Python overhead:
+Zipper utilizza una pipeline ottimizzata per garantire che la tua CPU trascorra più tempo a comprimere e meno tempo ad attendere l'overhead di Python:
 
-### Technical Specs
+### Specifiche Tecniche
 
-| Component | Implementation |
+| Componente | Implementazione |
 | --- | --- |
-| **Compression Algorithm** | DEFLATE (Level 1) |
-| **Acceleration Backend** | `isal_zlib` (Intel ISA-L) |
-| **UI Framework** | `Rich` |
-| **Compatibility** | Standard `.zip` (readable by any OS) |
+| **Algoritmo di Compressione** | DEFLATE (Livello 1) |
+| **Backend di Accelerazione** | `isal_zlib` (Intel ISA-L) |
+| **Framework UI** | `Rich` |
+| **Compatibilità** | Standard `.zip` (leggibile da qualsiasi OS) |
 
 ---
 
-## 📝 License
-
-Distributed under the MIT License. Use it to shrink your data, fast.
+## 📝 Licenza
+Distribuito sotto Licenza MIT. Usalo per comprimere i tuoi dati, velocemente.
